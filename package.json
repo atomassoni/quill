@@ -23,8 +23,8 @@
   "bugs": {
     "url": "https://github.com/slab/quill/issues"
   },
-  "prepare": "npm run build:quill",
   "scripts": {
+    "prepare": "npm run build:quill",
     "build": "run-p build:*",
     "build:quill": "npm run build -w quill",
     "build:website": "npm run build -w website",
