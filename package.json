@@ -12,6 +12,9 @@
       "website": "9000"
     }
   },
+  "files": [
+    "packages/quill/dist/"
+  ],
   "workspaces": [
     "packages/*"
   ],
